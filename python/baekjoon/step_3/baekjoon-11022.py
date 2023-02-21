@@ -25,8 +25,8 @@
 # Case  # 4: 9 + 8 = 17
 # Case  # 5: 5 + 2 = 7
 
-T = int(input())
+t = int(input())
 
-for i in range(1, T+1):
+for i in range(1, t+1):
     A, B = map(int, input().split())
     print("Case #" + str(i) + ":", A, "+", B, "=", A+B)
